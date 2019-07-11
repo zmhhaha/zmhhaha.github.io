@@ -1,6 +1,6 @@
 # zmhhaha.github.io  
 
-Personal blog  
+一个小透明的个人主页  
 
 ------  
 
