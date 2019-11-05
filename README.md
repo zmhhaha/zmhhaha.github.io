@@ -6,5 +6,5 @@
 
 [My update log](http://zmhhaha.github.io/My_diary.html)
 
-[LBM-Cplusplus-A.A.Mohamad]: https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad
+[LBM-Cplusplus-A.A.Mohamad](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad)
 
