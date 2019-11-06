@@ -4,7 +4,7 @@
 typedef ptrdiff_t plint;
 ```
 
->  定义于头文件`<cstddef>`
+>  `std::ptrdiff_t`定义于头文件`<cstddef>`
 >
 > `std::ptrdiff_t`是两个指针详解结果的有符号整数类型。
 >
@@ -26,7 +26,7 @@ typedef ptrdiff_t plint;
 typedef size_t pluint;
 ```
 
-> 定义于头文件`<cstddef> <cstdio> <cstdlib> <cstring> <ctime>`
+> `std::size_t`定义于头文件`<cstddef> <cstdio> <cstdlib> <cstring> <ctime>`
 >
 >  `std::size_t`是`sizeof`运算符还有`sizeof...`运算符和`alignof`运算符 (C++11 起)所返回的一种无符号整数类型。
 >
