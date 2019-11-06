@@ -1,6 +1,9 @@
+globalDefs.h文件
+
 ```c++
 /// Integer type for Palabos
-/* On some architectures, this type is larger than int. Using plint instead of int ensures 64-bit compatibility of the code.*/
+/* On some architectures, this type is larger than int.
+ * Using plint instead of int ensures 64-bit compatibility of the code.*/
 typedef ptrdiff_t plint;
 ```
 
@@ -22,7 +25,8 @@ typedef ptrdiff_t plint;
 
 ```c++
 /// Unsigned integer type for Palabos
-/* On some architectures, this type is larger than int. Using fluplint instead of unsigned plint ensures 64-bit compatibility of the code.*/
+/* On some architectures, this type is larger than int.
+ * Using fluplint instead of unsigned plint ensures 64-bit compatibility of the code.*/
 typedef size_t pluint;
 ```
 
