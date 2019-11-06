@@ -4,7 +4,9 @@
 
 ------
 
-[My update log](http://zmhhaha.github.io/My_diary.html)
+[My update log](My_diary.html)
 
 [LBM-Cplusplus-A.A.Mohamad](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad)
+
+[Palabos source code learning](Palabos_source_code_learning.md)
 
