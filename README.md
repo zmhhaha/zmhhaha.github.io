@@ -6,7 +6,7 @@
 
  [My update log](My_diary.html)
 
- [LBM-Cplusplus-A.A.Mohamad](zmhhaha/LBM-Cplusplus-A.A.Mohamad/blob/master/README.md)
+ [LBM-Cplusplus-A.A.Mohamad](https://github.com/zmhhaha/zmhhaha.github.io/README.md)
 
  [Palabos source code learning](Palabos_source_code_learning.md)
 
