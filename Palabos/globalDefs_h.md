@@ -1,5 +1,7 @@
 ### globalDefs.h文件
 
+#### plint
+
 ```c++
 /// Integer type for Palabos
 /* On some architectures, this type is larger than int.
@@ -22,6 +24,10 @@ typedef ptrdiff_t plint;
 > 对于短于 `PTRDIFF_MAX`的 char 数组， `std::ptrdiff_t` 表现为`std::size_t`的有符号对应物：它可以存储数组的大小，而且在多数平台上等同于 `std::intptr_t` 。
 >
 > 引用自[`std::ptrdiff_t`]( https://zh.cppreference.com/w/cpp/types/ptrdiff_t ) 
+
+
+
+#### pluint
 
 ```c++
 /// Unsigned integer type for Palabos
