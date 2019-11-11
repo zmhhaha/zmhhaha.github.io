@@ -48,3 +48,37 @@ typedef size_t pluint;
 >
 > 引用自[`std::size_t`]( https://zh.cppreference.com/w/cpp/types/size_t )
 
+
+
+#### IndexOrdering::OrderingT
+
+```c++
+/// Ordering of indices when a BlockXD is converted into a serial data stream.
+/** Signification of constants:
+ *	- forward:  Right-most index (y in 2D and z in 3D) is contiguous in memory.
+ *              For non-allocated parts of the Block, the value 0 is produced 
+ *              for output, and values are ignored during input.
+ *  - backward: Left-most index (x) is contiguous in memory.
+ *              For non-allocated parts of the Block, the value 0 is produced 
+ *              for output, and values are ignored during input.
+ *  - memorySaving: Ordering is forward (this respects the natural ordering in
+ *                  Palabos). Non-allocated parts of the Block are neither 
+ *                  written or read: memory savings in the program are 
+ *                  reflected by memory savings on the disk.
+ **/
+namespace IndexOrdering {
+    enum OrderingT {forward, backward, memorySaving};
+}
+```
+
+> BlockXD数据转换为串行数据流时索引的排序。
+>
+> 常数的意义:
+>
+> -向前:最右边的索引(y在2D中，z在3D中)在内存中是连续的。对于块中未分配的部分，将为输出生成值0，并在输入期间忽略值。
+>
+> -向后:最左边的索引(x)在内存中是连续的。对于块中未分配的部分，将为输出生成值0，并在输入期间忽略值。
+>
+> -存储:排序是向前的(这尊重Palabos中的自然排序)。块中未分配的部分既不写也不读:程序中的内存节省反映在磁盘上的内存节省上。
+
+OrderingT 为不限定作用域的枚举成员，放在IndexOrering名称空间中，限定作用域范围。
