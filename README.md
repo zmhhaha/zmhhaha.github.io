@@ -2,7 +2,7 @@
 
 [一个小透明的个人主页]( https://github.com/zmhhaha/zmhhaha.github.io )
 
-如有问题欢迎在github上给我留言提出问题
+如有问题欢迎在github上给我留言，更新信息我会写在更新日志里，以便查阅。
 
 ------
 
